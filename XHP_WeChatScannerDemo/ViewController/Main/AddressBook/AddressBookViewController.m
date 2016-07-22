@@ -10,4 +10,11 @@
 
 @implementation AddressBookViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setHidesBottomBarWhenPushed:NO];
+    [self.navigationItem setTitle:@"通讯录"];
+    // Do any additional setup after loading the view.
+}
+
 @end

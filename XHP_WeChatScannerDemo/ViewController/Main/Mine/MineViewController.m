@@ -10,4 +10,11 @@
 
 @implementation MineViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setHidesBottomBarWhenPushed:NO];
+    [self.navigationItem setTitle:@"我"];
+    // Do any additional setup after loading the view.
+}
+
 @end

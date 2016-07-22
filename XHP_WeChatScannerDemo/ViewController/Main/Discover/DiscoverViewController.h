@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonTableViewController.h"
 
 @interface DiscoverViewController : CommonTableViewController
+
+@property (strong,nonatomic) NSMutableArray *dataAry;
 
 @end

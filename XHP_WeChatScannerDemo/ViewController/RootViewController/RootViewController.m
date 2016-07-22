@@ -21,7 +21,7 @@
     [self.tabBar setBackgroundColor:DEFAULT_SEARCHBAR_COLOR];
     [self.tabBar setTintColor:DEFAULT_GREEN_COLOR];
     
-    NavigationViewController *messageNavC = [[NavigationViewController alloc]initWithRootViewController:self.messageListViewController];
+    NavigationViewController *messageNavC = [[NavigationViewController alloc]initWithRootViewController:self.messageViewController];
     NavigationViewController *adressBookNavC = [[NavigationViewController alloc]initWithRootViewController:self.addressBookViewController];
     NavigationViewController *discoverNavC = [[NavigationViewController alloc]initWithRootViewController:self.discoverViewController];
     NavigationViewController *mineNavC = [[NavigationViewController alloc]initWithRootViewController:self.mineViewController];
@@ -34,16 +34,16 @@
 
 
 //消息
--(MessageListViewController *)messageListViewController
+-(MessageViewController *)messageViewController
 {
 
-    if (_messageListViewController == nil) {
-        _messageListViewController = [[MessageListViewController alloc]init];
-        [_messageListViewController.tabBarItem setTitle:@"消息"];
-        [_messageListViewController.tabBarItem setImage:[UIImage imageNamed:@"tabbar_message"]];
-        [_messageListViewController.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_messageSE"]];
+    if (_messageViewController == nil) {
+        _messageViewController = [[MessageViewController alloc]init];
+        [_messageViewController.tabBarItem setTitle:@"消息"];
+        [_messageViewController.tabBarItem setImage:[UIImage imageNamed:@"tabbar_message"]];
+        [_messageViewController.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_messageSE"]];
     }
-    return _messageListViewController;
+    return _messageViewController;
 
 }
 
@@ -70,7 +70,7 @@
         _discoverViewController = [[DiscoverViewController alloc]init];
         [_discoverViewController.tabBarItem setTitle:@"发现"];
         [_discoverViewController.tabBarItem setImage:[UIImage imageNamed:@"tabbar_discover"]];
-        [_discoverViewController.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_discoverHL"]];
+        [_discoverViewController.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabbar_discoverSE"]];
     }
     return _discoverViewController;
     

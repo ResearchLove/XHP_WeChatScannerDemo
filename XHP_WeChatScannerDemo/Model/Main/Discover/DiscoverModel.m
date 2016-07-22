@@ -10,4 +10,12 @@
 
 @implementation DiscoverModel
 
++(DiscoverModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title
+{
+    DiscoverModel *discoverModel = [[DiscoverModel alloc]init];
+    discoverModel.iconPath = iconPath;
+    discoverModel.title = title;
+    return discoverModel;
+}
+
 @end

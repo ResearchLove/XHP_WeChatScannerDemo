@@ -10,4 +10,11 @@
 
 @implementation MessageViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self setHidesBottomBarWhenPushed:NO];
+    [self.navigationItem setTitle:@"消息"];
+    // Do any additional setup after loading the view.
+}
+
 @end

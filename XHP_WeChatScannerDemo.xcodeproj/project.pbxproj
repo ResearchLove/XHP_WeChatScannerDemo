@@ -7,14 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1938BF80F530A4BFE0C0DBA5 /* libPods-XHP_WeChatScannerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D52308D61032E2F459C0E7BD /* libPods-XHP_WeChatScannerDemo.a */; };
 		AA49DF611D41220A00EEDA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF601D41220A00EEDA08 /* main.m */; };
 		AA49DF641D41220A00EEDA08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF631D41220A00EEDA08 /* AppDelegate.m */; };
-		AA49DF671D41220A00EEDA08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF661D41220A00EEDA08 /* ViewController.m */; };
 		AA49DF6A1D41220A00EEDA08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA49DF681D41220A00EEDA08 /* Main.storyboard */; };
 		AA49DF6C1D41220A00EEDA08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA49DF6B1D41220A00EEDA08 /* Assets.xcassets */; };
 		AA49DF6F1D41220A00EEDA08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA49DF6D1D41220A00EEDA08 /* LaunchScreen.storyboard */; };
 		AA49DF7A1D41220A00EEDA08 /* XHP_WeChatScannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF791D41220A00EEDA08 /* XHP_WeChatScannerDemoTests.m */; };
 		AA49DF851D41220A00EEDA08 /* XHP_WeChatScannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF841D41220A00EEDA08 /* XHP_WeChatScannerDemoUITests.m */; };
+		AA49DFA61D41234A00EEDA08 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF961D41234A00EEDA08 /* NavigationViewController.m */; };
+		AA49DFA71D41234A00EEDA08 /* CommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF991D41234A00EEDA08 /* CommonTableViewCell.m */; };
+		AA49DFA81D41234A00EEDA08 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF9C1D41234A00EEDA08 /* CommonTableViewController.m */; };
+		AA49DFA91D41234A00EEDA08 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DF9F1D41234A00EEDA08 /* CommonViewController.m */; };
+		AA49DFAA1D41234A00EEDA08 /* CommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFA21D41234A00EEDA08 /* CommonWebViewController.m */; };
+		AA49DFB71D41273C00EEDA08 /* UIColor+Chat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFAF1D41273C00EEDA08 /* UIColor+Chat.m */; };
+		AA49DFB81D41273C00EEDA08 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFB21D41273C00EEDA08 /* UIView+Extensions.m */; };
+		AA49DFB91D41273C00EEDA08 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFB41D41273C00EEDA08 /* UIView+Frame.m */; };
+		AA49DFBA1D41273C00EEDA08 /* UIView+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFB61D41273C00EEDA08 /* UIView+Property.m */; };
+		AA49DFBE1D4127B800EEDA08 /* UIBarButtonItem+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFBD1D4127B800EEDA08 /* UIBarButtonItem+Action.m */; };
+		AA49DFD71D41291F00EEDA08 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFD01D41291F00EEDA08 /* RootViewController.m */; };
+		AA49DFE91D41295600EEDA08 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFDE1D41295600EEDA08 /* ScannerViewController.m */; };
+		AA49DFEA1D41295600EEDA08 /* ScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFE01D41295600EEDA08 /* ScanningViewController.m */; };
+		AA49DFEB1D41295600EEDA08 /* ScannerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFE31D41295600EEDA08 /* ScannerBackgroundView.m */; };
+		AA49DFEC1D41295600EEDA08 /* ScannerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFE51D41295600EEDA08 /* ScannerButton.m */; };
+		AA49DFED1D41295600EEDA08 /* ScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFE71D41295600EEDA08 /* ScannerView.m */; };
+		AA49DFF01D412B1B00EEDA08 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFEF1D412B1A00EEDA08 /* DiscoverViewController.m */; };
+		AA49DFF61D412BB900EEDA08 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFF51D412BB900EEDA08 /* MineViewController.m */; };
+		AA49DFF91D412BC700EEDA08 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFF81D412BC700EEDA08 /* MessageViewController.m */; };
+		AA49DFFC1D412BD700EEDA08 /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49DFFB1D412BD700EEDA08 /* AddressBookViewController.m */; };
+		AA49E0081D412DC400EEDA08 /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49E0051D412DC400EEDA08 /* UINavigationController+JZExtension.m */; };
+		AA49E0091D412DC400EEDA08 /* UINavigationController+StackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49E0071D412DC400EEDA08 /* UINavigationController+StackManager.m */; };
+		AA49E00F1D41301000EEDA08 /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA49E00E1D41301000EEDA08 /* Discover.xcassets */; };
+		AA79E98B1D4205EC00AF67AC /* DiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79E98A1D4205EC00AF67AC /* DiscoverModel.m */; };
+		AA79E9961D42071C00AF67AC /* DiscoverHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79E9951D42071C00AF67AC /* DiscoverHelper.m */; };
+		AA79E99A1D420A2F00AF67AC /* DiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79E9991D420A2F00AF67AC /* DiscoverCell.m */; };
+		AA79E99E1D420F1C00AF67AC /* Common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA79E99D1D420F1C00AF67AC /* Common.xcassets */; };
+		AA79E9A01D42137200AF67AC /* scanner01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA79E99F1D42137200AF67AC /* scanner01.jpeg */; };
+		AA79E9A21D42137800AF67AC /* scanner02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA79E9A11D42137800AF67AC /* scanner02.jpeg */; };
+		AA79E9A41D42137D00AF67AC /* scanner03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AA79E9A31D42137D00AF67AC /* scanner03.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +65,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1819591B1FE9FAE58C3E2948 /* Pods-XHP_WeChatScannerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHP_WeChatScannerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHP_WeChatScannerDemo/Pods-XHP_WeChatScannerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		661D173DE6775AC24F952C75 /* Pods-XHP_WeChatScannerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHP_WeChatScannerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHP_WeChatScannerDemo/Pods-XHP_WeChatScannerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AA49DF5C1D41220A00EEDA08 /* XHP_WeChatScannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHP_WeChatScannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA49DF601D41220A00EEDA08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA49DF621D41220A00EEDA08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA49DF631D41220A00EEDA08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA49DF651D41220A00EEDA08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA49DF661D41220A00EEDA08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA49DF691D41220A00EEDA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA49DF6B1D41220A00EEDA08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA49DF6E1D41220A00EEDA08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +81,64 @@
 		AA49DF801D41220A00EEDA08 /* XHP_WeChatScannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHP_WeChatScannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA49DF841D41220A00EEDA08 /* XHP_WeChatScannerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHP_WeChatScannerDemoUITests.m; sourceTree = "<group>"; };
 		AA49DF861D41220A00EEDA08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA49DF951D41234A00EEDA08 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		AA49DF961D41234A00EEDA08 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		AA49DF981D41234A00EEDA08 /* CommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewCell.h; sourceTree = "<group>"; };
+		AA49DF991D41234A00EEDA08 /* CommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewCell.m; sourceTree = "<group>"; };
+		AA49DF9B1D41234A00EEDA08 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		AA49DF9C1D41234A00EEDA08 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		AA49DF9E1D41234A00EEDA08 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		AA49DF9F1D41234A00EEDA08 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		AA49DFA11D41234A00EEDA08 /* CommonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebViewController.h; sourceTree = "<group>"; };
+		AA49DFA21D41234A00EEDA08 /* CommonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWebViewController.m; sourceTree = "<group>"; };
+		AA49DFAC1D4123E000EEDA08 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AA49DFAE1D41273C00EEDA08 /* UIColor+Chat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chat.h"; sourceTree = "<group>"; };
+		AA49DFAF1D41273C00EEDA08 /* UIColor+Chat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chat.m"; sourceTree = "<group>"; };
+		AA49DFB11D41273C00EEDA08 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		AA49DFB21D41273C00EEDA08 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		AA49DFB31D41273C00EEDA08 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		AA49DFB41D41273C00EEDA08 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		AA49DFB51D41273C00EEDA08 /* UIView+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Property.h"; sourceTree = "<group>"; };
+		AA49DFB61D41273C00EEDA08 /* UIView+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Property.m"; sourceTree = "<group>"; };
+		AA49DFBC1D4127B800EEDA08 /* UIBarButtonItem+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Action.h"; sourceTree = "<group>"; };
+		AA49DFBD1D4127B800EEDA08 /* UIBarButtonItem+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Action.m"; sourceTree = "<group>"; };
+		AA49DFCF1D41291F00EEDA08 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AA49DFD01D41291F00EEDA08 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AA49DFDD1D41295600EEDA08 /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = "<group>"; };
+		AA49DFDE1D41295600EEDA08 /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = "<group>"; };
+		AA49DFDF1D41295600EEDA08 /* ScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningViewController.h; sourceTree = "<group>"; };
+		AA49DFE01D41295600EEDA08 /* ScanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningViewController.m; sourceTree = "<group>"; };
+		AA49DFE21D41295600EEDA08 /* ScannerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerBackgroundView.h; sourceTree = "<group>"; };
+		AA49DFE31D41295600EEDA08 /* ScannerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerBackgroundView.m; sourceTree = "<group>"; };
+		AA49DFE41D41295600EEDA08 /* ScannerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerButton.h; sourceTree = "<group>"; };
+		AA49DFE51D41295600EEDA08 /* ScannerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerButton.m; sourceTree = "<group>"; };
+		AA49DFE61D41295600EEDA08 /* ScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerView.h; sourceTree = "<group>"; };
+		AA49DFE71D41295600EEDA08 /* ScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerView.m; sourceTree = "<group>"; };
+		AA49DFEE1D412B1A00EEDA08 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		AA49DFEF1D412B1A00EEDA08 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		AA49DFF41D412BB900EEDA08 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		AA49DFF51D412BB900EEDA08 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		AA49DFF71D412BC700EEDA08 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		AA49DFF81D412BC700EEDA08 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		AA49DFFA1D412BD700EEDA08 /* AddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		AA49DFFB1D412BD700EEDA08 /* AddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		AA49E0001D412D2400EEDA08 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		AA49E0041D412DC400EEDA08 /* UINavigationController+JZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+JZExtension.h"; sourceTree = "<group>"; };
+		AA49E0051D412DC400EEDA08 /* UINavigationController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+JZExtension.m"; sourceTree = "<group>"; };
+		AA49E0061D412DC400EEDA08 /* UINavigationController+StackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StackManager.h"; sourceTree = "<group>"; };
+		AA49E0071D412DC400EEDA08 /* UINavigationController+StackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StackManager.m"; sourceTree = "<group>"; };
+		AA49E00E1D41301000EEDA08 /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		AA79E9891D4205EC00AF67AC /* DiscoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverModel.h; sourceTree = "<group>"; };
+		AA79E98A1D4205EC00AF67AC /* DiscoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverModel.m; sourceTree = "<group>"; };
+		AA79E9941D42071C00AF67AC /* DiscoverHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverHelper.h; sourceTree = "<group>"; };
+		AA79E9951D42071C00AF67AC /* DiscoverHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverHelper.m; sourceTree = "<group>"; };
+		AA79E9981D420A2F00AF67AC /* DiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCell.h; sourceTree = "<group>"; };
+		AA79E9991D420A2F00AF67AC /* DiscoverCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCell.m; sourceTree = "<group>"; };
+		AA79E99D1D420F1C00AF67AC /* Common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Common.xcassets; sourceTree = "<group>"; };
+		AA79E99F1D42137200AF67AC /* scanner01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scanner01.jpeg; sourceTree = "<group>"; };
+		AA79E9A11D42137800AF67AC /* scanner02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scanner02.jpeg; sourceTree = "<group>"; };
+		AA79E9A31D42137D00AF67AC /* scanner03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scanner03.jpeg; sourceTree = "<group>"; };
+		D52308D61032E2F459C0E7BD /* libPods-XHP_WeChatScannerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XHP_WeChatScannerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1938BF80F530A4BFE0C0DBA5 /* libPods-XHP_WeChatScannerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +167,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		259857BA3B74AC5DB077A1CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661D173DE6775AC24F952C75 /* Pods-XHP_WeChatScannerDemo.debug.xcconfig */,
+				1819591B1FE9FAE58C3E2948 /* Pods-XHP_WeChatScannerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83CCD477ABB9E40BCE3617A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D52308D61032E2F459C0E7BD /* libPods-XHP_WeChatScannerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA49DF531D41220A00EEDA08 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +191,8 @@
 				AA49DF781D41220A00EEDA08 /* XHP_WeChatScannerDemoTests */,
 				AA49DF831D41220A00EEDA08 /* XHP_WeChatScannerDemoUITests */,
 				AA49DF5D1D41220A00EEDA08 /* Products */,
+				259857BA3B74AC5DB077A1CD /* Pods */,
+				83CCD477ABB9E40BCE3617A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +209,15 @@
 		AA49DF5E1D41220A00EEDA08 /* XHP_WeChatScannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AA49DF931D41234A00EEDA08 /* Common */,
+				AA49DFA31D41234A00EEDA08 /* Model */,
+				AA49DFA41D41234A00EEDA08 /* ViewController */,
+				AA49DFA51D41234A00EEDA08 /* ViewModel */,
+				AA79E98C1D4206D900AF67AC /* Business */,
+				AA49DF921D41234A00EEDA08 /* Category */,
+				AA49E00A1D412F5700EEDA08 /* Resources */,
 				AA49DF621D41220A00EEDA08 /* AppDelegate.h */,
 				AA49DF631D41220A00EEDA08 /* AppDelegate.m */,
-				AA49DF651D41220A00EEDA08 /* ViewController.h */,
-				AA49DF661D41220A00EEDA08 /* ViewController.m */,
 				AA49DF681D41220A00EEDA08 /* Main.storyboard */,
 				AA49DF6B1D41220A00EEDA08 /* Assets.xcassets */,
 				AA49DF6D1D41220A00EEDA08 /* LaunchScreen.storyboard */,
@@ -118,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				AA49DF601D41220A00EEDA08 /* main.m */,
+				AA49DFAC1D4123E000EEDA08 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +254,311 @@
 			path = XHP_WeChatScannerDemoUITests;
 			sourceTree = "<group>";
 		};
+		AA49DF921D41234A00EEDA08 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA49E0031D412DC400EEDA08 /* UINavigationController */,
+				AA49DFBB1D4127B800EEDA08 /* UIBarButtonItem */,
+				AA49DFAD1D41273C00EEDA08 /* UIColor */,
+				AA49DFB01D41273C00EEDA08 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA49DF931D41234A00EEDA08 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DF941D41234A00EEDA08 /* NavigationController */,
+				AA49DF971D41234A00EEDA08 /* TableViewCell */,
+				AA49DF9A1D41234A00EEDA08 /* TableViewController */,
+				AA49DF9D1D41234A00EEDA08 /* ViewController */,
+				AA49DFA01D41234A00EEDA08 /* WebViewController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA49DF941D41234A00EEDA08 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DF951D41234A00EEDA08 /* NavigationViewController.h */,
+				AA49DF961D41234A00EEDA08 /* NavigationViewController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		AA49DF971D41234A00EEDA08 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DF981D41234A00EEDA08 /* CommonTableViewCell.h */,
+				AA49DF991D41234A00EEDA08 /* CommonTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		AA49DF9A1D41234A00EEDA08 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DF9B1D41234A00EEDA08 /* CommonTableViewController.h */,
+				AA49DF9C1D41234A00EEDA08 /* CommonTableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		AA49DF9D1D41234A00EEDA08 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DF9E1D41234A00EEDA08 /* CommonViewController.h */,
+				AA49DF9F1D41234A00EEDA08 /* CommonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA49DFA01D41234A00EEDA08 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFA11D41234A00EEDA08 /* CommonWebViewController.h */,
+				AA49DFA21D41234A00EEDA08 /* CommonWebViewController.m */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		AA49DFA31D41234A00EEDA08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFFD1D412CBE00EEDA08 /* Main */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA49DFA41D41234A00EEDA08 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFCE1D41291F00EEDA08 /* RootViewController */,
+				AA49DFD81D41295600EEDA08 /* Main */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AA49DFA51D41234A00EEDA08 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA49DFAD1D41273C00EEDA08 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFAE1D41273C00EEDA08 /* UIColor+Chat.h */,
+				AA49DFAF1D41273C00EEDA08 /* UIColor+Chat.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		AA49DFB01D41273C00EEDA08 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFB11D41273C00EEDA08 /* UIView+Extensions.h */,
+				AA49DFB21D41273C00EEDA08 /* UIView+Extensions.m */,
+				AA49DFB31D41273C00EEDA08 /* UIView+Frame.h */,
+				AA49DFB41D41273C00EEDA08 /* UIView+Frame.m */,
+				AA49DFB51D41273C00EEDA08 /* UIView+Property.h */,
+				AA49DFB61D41273C00EEDA08 /* UIView+Property.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		AA49DFBB1D4127B800EEDA08 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFBC1D4127B800EEDA08 /* UIBarButtonItem+Action.h */,
+				AA49DFBD1D4127B800EEDA08 /* UIBarButtonItem+Action.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		AA49DFCE1D41291F00EEDA08 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFCF1D41291F00EEDA08 /* RootViewController.h */,
+				AA49DFD01D41291F00EEDA08 /* RootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		AA49DFD81D41295600EEDA08 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFF21D412BA400EEDA08 /* Message */,
+				AA49DFF11D412BA400EEDA08 /* AddressBook */,
+				AA49DFD91D41295600EEDA08 /* Discover */,
+				AA49DFF31D412BA400EEDA08 /* Mine */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA49DFD91D41295600EEDA08 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E9971D420A1B00AF67AC /* Views */,
+				AA49DFEE1D412B1A00EEDA08 /* DiscoverViewController.h */,
+				AA49DFEF1D412B1A00EEDA08 /* DiscoverViewController.m */,
+				AA49DFDC1D41295600EEDA08 /* Scanner */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AA49DFDC1D41295600EEDA08 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFE11D41295600EEDA08 /* views */,
+				AA49DFDD1D41295600EEDA08 /* ScannerViewController.h */,
+				AA49DFDE1D41295600EEDA08 /* ScannerViewController.m */,
+				AA49DFDF1D41295600EEDA08 /* ScanningViewController.h */,
+				AA49DFE01D41295600EEDA08 /* ScanningViewController.m */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		AA49DFE11D41295600EEDA08 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFE21D41295600EEDA08 /* ScannerBackgroundView.h */,
+				AA49DFE31D41295600EEDA08 /* ScannerBackgroundView.m */,
+				AA49DFE41D41295600EEDA08 /* ScannerButton.h */,
+				AA49DFE51D41295600EEDA08 /* ScannerButton.m */,
+				AA49DFE61D41295600EEDA08 /* ScannerView.h */,
+				AA49DFE71D41295600EEDA08 /* ScannerView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		AA49DFF11D412BA400EEDA08 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFFA1D412BD700EEDA08 /* AddressBookViewController.h */,
+				AA49DFFB1D412BD700EEDA08 /* AddressBookViewController.m */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		AA49DFF21D412BA400EEDA08 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFF71D412BC700EEDA08 /* MessageViewController.h */,
+				AA49DFF81D412BC700EEDA08 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AA49DFF31D412BA400EEDA08 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFF41D412BB900EEDA08 /* MineViewController.h */,
+				AA49DFF51D412BB900EEDA08 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		AA49DFFD1D412CBE00EEDA08 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA49DFFE1D412CBE00EEDA08 /* Discover */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA49DFFE1D412CBE00EEDA08 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E9891D4205EC00AF67AC /* DiscoverModel.h */,
+				AA79E98A1D4205EC00AF67AC /* DiscoverModel.m */,
+				AA49DFFF1D412CBE00EEDA08 /* Scanner */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AA49DFFF1D412CBE00EEDA08 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AA49E0001D412D2400EEDA08 /* Scanner.h */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		AA49E0031D412DC400EEDA08 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				AA49E0041D412DC400EEDA08 /* UINavigationController+JZExtension.h */,
+				AA49E0051D412DC400EEDA08 /* UINavigationController+JZExtension.m */,
+				AA49E0061D412DC400EEDA08 /* UINavigationController+StackManager.h */,
+				AA49E0071D412DC400EEDA08 /* UINavigationController+StackManager.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		AA49E00A1D412F5700EEDA08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA49E00B1D412F5700EEDA08 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA49E00B1D412F5700EEDA08 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E99F1D42137200AF67AC /* scanner01.jpeg */,
+				AA79E9A11D42137800AF67AC /* scanner02.jpeg */,
+				AA79E9A31D42137D00AF67AC /* scanner03.jpeg */,
+				AA79E99D1D420F1C00AF67AC /* Common.xcassets */,
+				AA49E00E1D41301000EEDA08 /* Discover.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AA79E98C1D4206D900AF67AC /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E98D1D4206D900AF67AC /* Main */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		AA79E98D1D4206D900AF67AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E98E1D4206D900AF67AC /* Discover */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA79E98E1D4206D900AF67AC /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E9941D42071C00AF67AC /* DiscoverHelper.h */,
+				AA79E9951D42071C00AF67AC /* DiscoverHelper.m */,
+				AA79E9911D4206D900AF67AC /* Scanner */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AA79E9911D4206D900AF67AC /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		AA79E9971D420A1B00AF67AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA79E9981D420A2F00AF67AC /* DiscoverCell.h */,
+				AA79E9991D420A2F00AF67AC /* DiscoverCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +566,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA49DF891D41220A00EEDA08 /* Build configuration list for PBXNativeTarget "XHP_WeChatScannerDemo" */;
 			buildPhases = (
+				D50994D2E5D2AD9D2B284A98 /* [CP] Check Pods Manifest.lock */,
 				AA49DF581D41220A00EEDA08 /* Sources */,
 				AA49DF591D41220A00EEDA08 /* Frameworks */,
 				AA49DF5A1D41220A00EEDA08 /* Resources */,
+				D48B2AF4AB5DFEF1A4B1AF53 /* [CP] Embed Pods Frameworks */,
+				BC833BCDEBAA9BB9A2B52F19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +665,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA79E99E1D420F1C00AF67AC /* Common.xcassets in Resources */,
+				AA79E9A01D42137200AF67AC /* scanner01.jpeg in Resources */,
+				AA49E00F1D41301000EEDA08 /* Discover.xcassets in Resources */,
 				AA49DF6F1D41220A00EEDA08 /* LaunchScreen.storyboard in Resources */,
 				AA49DF6C1D41220A00EEDA08 /* Assets.xcassets in Resources */,
 				AA49DF6A1D41220A00EEDA08 /* Main.storyboard in Resources */,
+				AA79E9A21D42137800AF67AC /* scanner02.jpeg in Resources */,
+				AA79E9A41D42137D00AF67AC /* scanner03.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +692,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC833BCDEBAA9BB9A2B52F19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHP_WeChatScannerDemo/Pods-XHP_WeChatScannerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48B2AF4AB5DFEF1A4B1AF53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHP_WeChatScannerDemo/Pods-XHP_WeChatScannerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50994D2E5D2AD9D2B284A98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AA49DF581D41220A00EEDA08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA49DF671D41220A00EEDA08 /* ViewController.m in Sources */,
+				AA49E0091D412DC400EEDA08 /* UINavigationController+StackManager.m in Sources */,
+				AA49DFA61D41234A00EEDA08 /* NavigationViewController.m in Sources */,
+				AA79E9961D42071C00AF67AC /* DiscoverHelper.m in Sources */,
+				AA49DFBA1D41273C00EEDA08 /* UIView+Property.m in Sources */,
+				AA49DFA91D41234A00EEDA08 /* CommonViewController.m in Sources */,
+				AA49DFB81D41273C00EEDA08 /* UIView+Extensions.m in Sources */,
+				AA49DFAA1D41234A00EEDA08 /* CommonWebViewController.m in Sources */,
+				AA49E0081D412DC400EEDA08 /* UINavigationController+JZExtension.m in Sources */,
+				AA49DFF01D412B1B00EEDA08 /* DiscoverViewController.m in Sources */,
+				AA49DFBE1D4127B800EEDA08 /* UIBarButtonItem+Action.m in Sources */,
+				AA49DFB71D41273C00EEDA08 /* UIColor+Chat.m in Sources */,
+				AA49DFA81D41234A00EEDA08 /* CommonTableViewController.m in Sources */,
+				AA49DFEA1D41295600EEDA08 /* ScanningViewController.m in Sources */,
+				AA49DFD71D41291F00EEDA08 /* RootViewController.m in Sources */,
+				AA49DFF91D412BC700EEDA08 /* MessageViewController.m in Sources */,
+				AA49DFEB1D41295600EEDA08 /* ScannerBackgroundView.m in Sources */,
+				AA49DFEC1D41295600EEDA08 /* ScannerButton.m in Sources */,
+				AA49DFE91D41295600EEDA08 /* ScannerViewController.m in Sources */,
+				AA49DFF61D412BB900EEDA08 /* MineViewController.m in Sources */,
+				AA49DFA71D41234A00EEDA08 /* CommonTableViewCell.m in Sources */,
 				AA49DF641D41220A00EEDA08 /* AppDelegate.m in Sources */,
+				AA79E98B1D4205EC00AF67AC /* DiscoverModel.m in Sources */,
+				AA49DFED1D41295600EEDA08 /* ScannerView.m in Sources */,
+				AA49DFFC1D412BD700EEDA08 /* AddressBookViewController.m in Sources */,
 				AA49DF611D41220A00EEDA08 /* main.m in Sources */,
+				AA79E99A1D420A2F00AF67AC /* DiscoverCell.m in Sources */,
+				AA49DFB91D41273C00EEDA08 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +912,10 @@
 		};
 		AA49DF8A1D41220A00EEDA08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661D173DE6775AC24F952C75 /* Pods-XHP_WeChatScannerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHP_WeChatScannerDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XHP_WeChatScannerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-WeChatScannerDemo";
@@ -424,8 +925,10 @@
 		};
 		AA49DF8B1D41220A00EEDA08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1819591B1FE9FAE58C3E2948 /* Pods-XHP_WeChatScannerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHP_WeChatScannerDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XHP_WeChatScannerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haohehealth.XHP-WeChatScannerDemo";
@@ -498,6 +1001,7 @@
 				AA49DF8B1D41220A00EEDA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA49DF8C1D41220A00EEDA08 /* Build configuration list for PBXNativeTarget "XHP_WeChatScannerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +1010,7 @@
 				AA49DF8E1D41220A00EEDA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA49DF8F1D41220A00EEDA08 /* Build configuration list for PBXNativeTarget "XHP_WeChatScannerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +1019,7 @@
 				AA49DF911D41220A00EEDA08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

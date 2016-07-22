@@ -46,7 +46,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor blackColor]];
-    
     [self.view addSubview:self.scannerVC.view];
     [self addChildViewController:self.scannerVC];
     [self.view addSubview:self.bottomView];

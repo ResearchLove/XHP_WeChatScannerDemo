@@ -10,4 +10,9 @@
 
 @interface DiscoverModel : NSObject
 
+@property (copy,nonatomic) NSString *iconPath;
+@property (copy,nonatomic) NSString *title;
+
++(DiscoverModel *)createMenuIconPath:(NSString *)iconPath title:(NSString *)title;
+
 @end

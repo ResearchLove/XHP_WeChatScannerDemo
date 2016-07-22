@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonTableViewController.h"
 
 @interface AddressBookViewController : CommonTableViewController
 

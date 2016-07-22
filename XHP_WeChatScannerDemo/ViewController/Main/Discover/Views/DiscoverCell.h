@@ -7,7 +7,13 @@
 //
 
 #import "CommonTableViewCell.h"
+#import "DiscoverModel.h"
 
 @interface DiscoverCell : CommonTableViewCell
+
+@property (strong,nonatomic) UIImageView *iconImageView;
+@property (strong,nonatomic) UILabel *titleLabel;
+
+@property (strong,nonatomic) DiscoverModel *discoverModel;
 
 @end

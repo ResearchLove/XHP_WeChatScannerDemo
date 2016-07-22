@@ -10,4 +10,6 @@
 
 @interface DiscoverHelper : NSObject
 
+@property (nonatomic, strong) NSMutableArray *dataAry;
+
 @end
