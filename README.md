@@ -6,3 +6,4 @@
 ![image](https://github.com/ResearchLove/XHP_WeChatScannerDemo/blob/master/XHP_WeChatScannerDemo/Resources/Images/scanner03.jpeg)
 # XHP_WeChatScannerDemo
 # XHP_WeChatScannerDemo
+# XHP_WeChatScannerDemo
