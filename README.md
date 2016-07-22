@@ -7,3 +7,4 @@
 # XHP_WeChatScannerDemo
 # XHP_WeChatScannerDemo
 # XHP_WeChatScannerDemo
+# XHP_WeChatScannerDemo
